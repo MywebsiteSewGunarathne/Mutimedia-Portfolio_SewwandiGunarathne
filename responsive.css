@@ -1,0 +1,78 @@
+/*-------HOME PAGE-------*/
+@media only screen and (max-width:1000px) {
+  /* For tablets: */
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .container {
+    width: 100%;
+  }
+}
+/*-------ABOUT ME PAGE-------*/
+@media only screen and (max-width: 600px) {
+  li {
+    float: none;
+    display: inline-block;
+  }
+
+  li a {
+    padding: 15px 10px; 
+  }
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+/*-------PORTFOLIO PAGE-------*/
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .image-container img {
+    max-width: calc(50% - 20px); 
+  }
+}
+@media screen and (max-width: 600px) {
+  .image-box {
+    flex-direction: column; 
+    align-items: center; 
+  }
+}
+@media screen and (max-width: 768px) {
+  .container2 {
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .image-container {
+    margin-bottom: 40px; 
+  }
+  
+  .form-container {
+    margin-left: 0; 
+    width: 80%; 
+    max-width: 300px; 
+  }
+  
+  .social-link {
+    margin-right: 0; 
+  }
+}
